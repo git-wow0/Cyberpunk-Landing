@@ -1,0 +1,31 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Archangelsk-Regular';
+  font-style: normal;
+  src: url('../fonts/Archangelsk.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+$main_font: 'Archangelsk-Regular';
+$bold_font: 'Montserrat-Bold';
+
+
+$title_font: 'Archangelsk-Regular';
+$text_font: 'Roboto';
+$light_font: 'Roboto-Light';
+
+
+

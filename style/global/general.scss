@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 150%;
+  font-family: $text_font;
+  overflow-x: hidden;
+}
+
+
+main {
+  overflow-x: hidden;
+}
+
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: $blue;
+  font-weight: 700;
+}
+
+.wrapper {
+  max-width: 1280px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  @media screen and (min-width: $tablet-screen) {
+    margin: 0 auto;
+    padding: 0 36px;
+  }
+  @media screen and (min-width: 1352px) {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.button{
+  background: $black;
+  color: $yellow;
+  font-family: $text_font;
+  display: inline-block;
+  font-weight: 700;
+  padding: 21px 50px;
+  font-size: 16px;
+  line-height: 18px;
+  cursor: pointer;
+  min-width: 180px;
+  max-width: 272px;
+  width: max-content;
+  transition: all .3s linear;
+
+  @media screen and (min-width: $tablet-screen) {
+    padding: 19px 50px;
+    font-size: 18px;
+    line-height: 21px;
+    width: auto;
+    max-width: fit-content;
+  }
+}
+
+.title{
+  font-family: $title_font;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: left;
+  font-weight: 400;
+
+  @media screen and (min-width: $tablet-screen ) {
+    font-size: 62px;
+    line-height: 63.3px;
+  }
+}
+
+p{
+  font-family: $text_font;
+  color: $black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  @media screen and (min-width: $tablet-screen) {
+    font-size: 18px;
+    line-height: 34px;
+  }
+}
+
+
+
+
+
+
+
+

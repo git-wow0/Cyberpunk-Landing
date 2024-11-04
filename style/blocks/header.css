@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+.header .logo {
+  width: 120px;
+  height: auto;
+}
+.header .social-icons {
+  display: flex;
+  gap: 10px;
+}
+.header .social-icons .icon {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  transition: transform 0.3s ease;
+}
+
+/*# sourceMappingURL=header.css.map */
